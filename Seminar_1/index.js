@@ -1,7 +1,8 @@
-var http = require("http");
-http
-  .createServer(function (req, res) {
-    res.write("Hello Web!");
-    res.end();
-  })
-  .listen(8080);
+const express = require("express");
+const app = express();
+
+app.use(express.static(__dirname + "/public"));
+
+app.get("/", (req, res) => res.send("Hello Web!"));
+
+app.listen(8080);
