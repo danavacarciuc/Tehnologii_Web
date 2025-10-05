@@ -7,8 +7,10 @@
     "start": "node --watch index.js"
   },
   "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
+  "author": "Dana Vacarciuc",
+  "license": "1097E",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
