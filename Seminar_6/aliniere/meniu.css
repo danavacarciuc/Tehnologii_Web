@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 2px;
+}
+
+.menu a {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.menu a:hover {
+  background-color: grey;
+}
